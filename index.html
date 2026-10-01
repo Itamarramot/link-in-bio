@@ -22,7 +22,7 @@
         body {
           min-height: 100%;
           padding-top: 40px;
-          padding-buttom: 40px;
+          padding-bottom: 40px;
           background: linear-gradient(135deg, #ffe5ce, #ffd0ba, #ffb9b0, #ffa2b0, #fd8dba, #ec7cca, #cd72de, #9c71f2); /* made at https://learnui.design/tools/gradient-generator.html */
           color: black;
           font-family: 'Cambo', serif;
@@ -38,7 +38,7 @@
           height: 128px;
           object-fit: cover;
           border-radius: 128px;
-          border: 4mm ridge rgb(211 220 50 / 0.6);
+          border: 2mm ridge rgba(220, 107, 50, 0.6);
         }
 
         .thumbnails {
@@ -49,7 +49,7 @@
         }
 
         .item {
-          background-color: rgba(245, 99, 145, 0.56);
+          background-color: rgba(208, 93, 198, 0.46);
           margin-bottom: 20px;
           display: flex;
           align-items: center;
@@ -59,7 +59,7 @@
           box-shadow: 39px 36px 28px 4px rgba(0,0,0,0.1);
         }
 
-        .main-contrainer {
+        .main-container {
           max-width: 640px;
           margin: auto;
         }
@@ -83,6 +83,13 @@
           justify-content: space-around;
         }
 
+        .social-image {
+          width: 16px;
+          height: 16px;
+          border-radius: 5px;
+          object-fit: scale-down;
+        }
+
         .link-text {
           text-align: center;
           flex-grow: 1;
@@ -93,7 +100,7 @@
 
   <body>
  
-  <div class="main-contrainer">
+  <div class="main-container">
 
     <div class="image-row">
       <img class="avatar-image" src="/thumbnails/ItamarRamot - professional photo (2026-a).jpg" alt="Itamar Ramot's headshot">
@@ -107,7 +114,7 @@
       </a>
     
       <a href="https://chicago.academia.edu/ItamarRamot" target="_blank">
-        Academic.edu
+        <img class="social-image" src="/thumbnails/academia-logo-b&w.png" alt="Academia.edu logo">
       </a>
 
       <a href="https://www.facebook.com/itamar.ramot/" target="_blank">
